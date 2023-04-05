@@ -1,0 +1,243 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+header {
+  background: rgb(19, 60, 104);
+}
+.header-wapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  background: rgba(255, 255, 255, 0.144);
+  -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.64);
+}
+.left-logo img {
+  width: 120px;
+  margin-right: 8px;
+}
+.right-logo img {
+  width: 250px;
+}
+header .left-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.left-logo h1 {
+  font-size: 40px;
+  line-height: 40px;
+  color: #fff;
+}
+.left-logo h1 span {
+  font-size: 32px;
+  font-weight: bold;
+  color: gold;
+}
+#main {
+  background: url(../img/Animated\ Shape.svg);
+  background-position: 85% 108%;
+}
+#main {
+  padding: 50px 0;
+}
+.boxes {
+  margin: 150px 0;
+}
+.last-box {
+  margin-bottom: 0;
+}
+.box-inner {
+  background: rgba(255, 255, 255, 0.144);
+  border-radius: 30px 0 30px 0;
+  -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.7px);
+  -webkit-backdrop-filter: blur(6.7px);
+  border: 1px solid rgba(255, 255, 255, 0.64);
+  position: relative;
+  padding: 30px 30px;
+  width: 75%;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  min-height: 400px;
+}
+.box-heading {
+  font-size: 28px;
+  font-weight: 900;
+  color: gold;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+.box-heading span {
+  color: #fff;
+  font-size: 40px;
+}
+.hr {
+  width: 50%;
+  margin: 10px auto;
+  border: 1px solid #fff;
+  border-radius: 50px;
+}
+.box-desc {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 28px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.bottom-box img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  position: absolute;
+  top: -104px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  border-radius: 50%;
+  z-index: 999;
+  background: #0e2a47;
+  border: 1px solid #fff;
+}
+footer {
+  background: rgb(19, 60, 104);
+}
+.footer-top {
+  background: rgba(255, 255, 255, 0.144);
+  -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.7px);
+  -webkit-backdrop-filter: blur(6.7px);
+  border: 1px solid rgba(255, 255, 255, 0.64);
+  text-align: center;
+  padding: 20px 20px;
+}
+.footer-top img {
+  width: 70px;
+}
+.footer-top p {
+  font-size: 20px;
+  color: #fff;
+}
+.footer-top p span {
+  color: gold;
+}
+.footer-top p a {
+  color: gold;
+}
+.footer-botton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 5px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  color: #fff;
+  padding: 0 5px;
+  margin-top: 10px;
+}
+.footer-logo {
+  -webkit-box-flex: 30%;
+  -ms-flex: 30%;
+  flex: 30%;
+  width: 30%;
+}
+.footer-logo img {
+  width: 12rem;
+}
+.copyright-texts a {
+  color: gold;
+}
+@media (max-width: 700px) {
+  .left-logo h1 {
+    font-size: 30px;
+  }
+  .left-logo h1 span {
+    font-size: 25px;
+  }
+  .right-logo img {
+    width: 200px;
+  }
+}
+@media (max-width: 550px) {
+  .left-logo img {
+    width: 90px;
+  }
+  .left-logo h1 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .left-logo h1 span {
+    font-size: 20px;
+  }
+  .right-logo img {
+    width: 150px;
+  }
+  .box-heading {
+    font-size: 20px;
+    margin-top: 70px;
+  }
+  .box-desc {
+    font-size: 15px;
+  }
+}
+@media (max-width: 450px) {
+  .right-logo img {
+    width: 120px;
+  }
+  .left-logo h1 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .left-logo h1 span {
+    font-size: 18px;
+  }
+  .copyright-text {
+    -webkit-box-flex: 100%;
+    -ms-flex: 100%;
+    flex: 100%;
+    text-align: center;
+  }
+  .footer-logo {
+    text-align: center;
+  }
+  .bottom-box img {
+    width: 150px;
+    height: 150px;
+    top: -80px;
+  }
+}
